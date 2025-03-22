@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import image from '../../Images/logo.png';
 // import Bookdemobtn from "../../Shared/Bookdemo-btn";
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <div className="navbar-container">
         {/*Navbar logo section */}
         <div className="navbar-logo">
-          <img src="../../Images/Company Logo 1.png" alt="Carbon Crunch logo" />
+          <img src={image} />
           <span>Carboncrunch</span>
         </div>
 
