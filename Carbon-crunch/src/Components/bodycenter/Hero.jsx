@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import HeroBackground from "../animation/HeroBackground";
+import image from '../../Images/Text.png'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
 
       <div className="hero-container">
         <div className="colored-bar">
-          <img src="./src/images/Text.png" alt="hand-icon" />
+          <img src={image} alt="hand-icon" />
           <span className="colored-text"> Let's have a tour </span>
         </div>
         <div className="hero-content">
