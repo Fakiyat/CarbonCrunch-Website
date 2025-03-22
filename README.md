@@ -64,6 +64,7 @@ cd carbon-crunch</code></pre>
 <pre><code>carbon-crunch/
 carbon-crunch/
 ├── public/                  # Static files and assets
+├── Preview/                 # Added a video for a sample look
 ├── src/                     # Source code
 │   ├── Components/          # UI components organized by feature
 │   │   ├── animation/       # Animation-related components
