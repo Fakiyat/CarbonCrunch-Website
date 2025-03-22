@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: none;
+}
+/* Hero Section Styling */
+.hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(to bottom, #ffffff, #9dfd9d);
+  position: relative;
+  overflow: hidden; /* Ensure background animation doesn't overflow */
+}
+
+/* Hero Container */
+.hero-container {
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+  position: relative; /* Ensure it appears above the background */
+  z-index: 1; /* Higher than background animation */
+}
+
+/* Top Bar with Image */
+.colored-bar {
+  display: inline-flex;
+  align-items: center;
+  background: black;
+  color: rgb(245, 191, 76);
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Add space below */
+}
+
+.colored-bar img {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+
+/* Hero Heading */
+.hero-heading {
+  font-size: 48px;
+  font-weight: 800;
+  color: #222;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+/* Highlighted Green Text */
+.highlight {
+  color: #00b020;
+  font-weight: bolder;
+}
+
+/* Hero Subheading */
+.hero-subheading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Shared button styles */
+.calculator-btn,
+.book-demo-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden; /* For shine effect */
+}
+
+.calculator-btn {
+  background: white;
+  border: 2px solid #00b020;
+  color: #00b020;
+}
+
+/* Book demo button - previously undefined */
+.book-demo-btn {
+  background: #00b020;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 176, 32, 0.3);
+}
+
+.calculator-btn:hover {
+  background: #00b020;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, 176, 32, 0.8);
+}
+
+.book-demo-btn:hover {
+  background: #009a1c;
+  box-shadow: 0 6px 20px rgba(0, 176, 32, 0.5);
+}
+
+/* Button shine effect - new addition */
+.calculator-btn::before,
+.book-demo-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: left 0.7s ease;
+}
+
+.calculator-btn:hover::before,
+.book-demo-btn:hover::before {
+  left: 100%;
+}
+
+/* Background animation styles - new addition */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero-background canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    font-size: 36px;
+  }
+
+  .hero-subheading {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    flex-direction: column;
+  }
+
+  .calculator-btn,
+  .book-demo-btn {
+    width: 100%;
+  }
+
+  /* Reduce animation intensity on mobile */
+  .hero-background {
+    opacity: 0.5;
+  }
+}
