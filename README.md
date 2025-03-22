@@ -108,11 +108,13 @@ carbon-crunch/
 <h1>Features</h1>
 
 <ul>
-  <li>✨ <strong>Interactive 3D Card Animation</strong>: Visualize sustainability metrics with animated 3D cards</li>
+  <li> <strong>Interactive 3D Card Animation</strong>: Visualize sustainability metrics with animated 3D cards</li>
   <br/>
-  <li>📱 <strong>Responsive Design</strong>: Optimized for desktop, tablet, and mobile devices</li>
-  <li>🌊 <strong>Animated Background</strong>: Dynamic particle network that responds to user movement</li>
-  <li>🚀 <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
+  <li> <strong>Responsive Design</strong>: Optimized for desktop, tablet, and mobile devices</li>
+  <br/>
+  <li> <strong>Animated Background</strong>: Dynamic particle network that responds to user movement</li>
+  <br/>
+  <li> <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
 </ul>
 
 
