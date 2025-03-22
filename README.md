@@ -117,6 +117,10 @@ carbon-crunch/
   <li> <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
 </ul>
 
+<h1>Some Preview</h1>
+<h3>Logo</h3>
+<img src=![Screenshot 2025-03-22 155407](https://github.com/user-attachments/assets/afa4fe92-fa17-428b-ade4-5e6a51f856f0)
+
 
 <h2>Browser Support</h2>
 
