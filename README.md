@@ -64,6 +64,7 @@ cd carbon-crunch</code></pre>
 <pre><code>carbon-crunch/
 carbon-crunch/
 ├── public/                  # Static files and assets
+├── Preview/                 # Added a video for a sample look
 ├── src/                     # Source code
 │   ├── Components/          # UI components organized by feature
 │   │   ├── animation/       # Animation-related components
@@ -107,12 +108,40 @@ carbon-crunch/
 <h1>Features</h1>
 
 <ul>
-  <li>✨ <strong>Interactive 3D Card Animation</strong>: Visualize sustainability metrics with animated 3D cards</li>
+  <li> <strong>Interactive 3D Card Animation</strong>: Visualize sustainability metrics with animated 3D cards</li>
   <br/>
-  <li>📱 <strong>Responsive Design</strong>: Optimized for desktop, tablet, and mobile devices</li>
-  <li>🌊 <strong>Animated Background</strong>: Dynamic particle network that responds to user movement</li>
-  <li>🚀 <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
+  <li> <strong>Responsive Design</strong>: Optimized for desktop, tablet, and mobile devices</li>
+  <br/>
+  <li> <strong>Animated Background</strong>: Dynamic particle network that responds to user movement</li>
+  <br/>
+  <li> <strong>Page Animations</strong>: Smooth transitions and scroll-triggered animations for enhanced UX</li>
 </ul>
+
+<h1>Some Preview</h1>
+
+<h3>Logo</h3>
+
+![Screenshot 2025-03-22 155407](https://github.com/user-attachments/assets/afa4fe92-fa17-428b-ade4-5e6a51f856f0)
+
+<h3>Navbar</h3>
+
+![Screenshot 2025-03-22 155650](https://github.com/user-attachments/assets/1ad78db2-cc8c-4905-a376-29e24424a0fd)
+
+<h3>Buttons</h3>
+
+![Screenshot 2025-03-22 155655](https://github.com/user-attachments/assets/2d8af5fa-8c2f-4b66-95ec-d78143c2535a)
+
+<h3>Colored Bar</h3>
+
+![Screenshot 2025-03-22 155702](https://github.com/user-attachments/assets/aedb1544-22c8-447a-bf63-143e1927f081)
+
+<h3> Body Title</h3>
+
+![Screenshot 2025-03-22 155716](https://github.com/user-attachments/assets/fde6f3bf-3d9a-4dfc-84ea-8fb425d52f32)
+
+<h3>Card</h3>
+
+![Screenshot 2025-03-22 155722](https://github.com/user-attachments/assets/42925688-d425-41f8-a0ab-a8bdb50849a2)
 
 
 <h2>Browser Support</h2>
