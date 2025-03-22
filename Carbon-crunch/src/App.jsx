@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/navbar/Navbar";
-import Hero from "./Components/bodycenter/hero";
+import Hero from "./Components/bodycenter/Hero";
 // import Card from "./Components/cards/cardSection";
 import ThreeJsCardSection from "./Components/cards/Threejscardsection.jsx";
 
