@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar-container">
         {/*Navbar logo section */}
         <div className="navbar-logo">
-          <img src="./src/images/Company Logo 1.png" alt="Carbon Crunch logo" />
+          <img src="../../Images/Company Logo 1.png" alt="Carbon Crunch logo" />
           <span>Carboncrunch</span>
         </div>
 
